@@ -7,6 +7,9 @@ public class kdv_hesaplama {
         Scanner input = new Scanner(System.in);
         System.out.println("Tutar giriniz: ");
         price = input.nextDouble();
+        if(price >= 0 && price <= 1000){
+            kdv_tax = 0.08;
+        }
         tax_price = price * kdv_tax;
         new_price = tax_price + price;
         System.out.println("Urun fiyati: " + price);
