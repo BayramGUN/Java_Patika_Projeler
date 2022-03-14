@@ -26,10 +26,7 @@ public class not_ortalamasi {
         music = num.nextInt();
         average = (math + music + hist + physic + chem + turkish) / 6;
         System.out.println("Notlarin ortalamasi: " + average);
-        if(average >= 60) {
-            System.out.println("Sinifi Gecti");
-        } else
-            System.out.println("Sinifta Kaldi");
-
+        conc = average >= 60;
+        System.out.println((conc) ? "Sinifi gecti!" : "Sinifta kaldi!");
     }
 }
