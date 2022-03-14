@@ -9,7 +9,7 @@ public class kdv_hesaplama {
         System.out.println("Tutar giriniz: ");
         price = input.nextDouble();
         
-        kdv_tax = (price >= 0 || price <= 1000) ? 0.18: 0.08;
+        kdv_tax = (price >= 0 && price <= 1000) ? 0.18: 0.08;
         
         tax_price = price * kdv_tax;
         new_price = tax_price + price;
