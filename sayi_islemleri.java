@@ -8,7 +8,7 @@ public class sayi_islemleri {
 
         System.out.println("Sayi Giriniz: ");
         n = num.nextInt();
-        for(int i = 1; i <= n; i++) {
+        for(int i = 0; i <= n; i++) {
             if((i % 4) == 0 && (i % 3) == 0){
                 sum += i;
                 counter++;
