@@ -3,7 +3,7 @@ import java.util.*;
 
 public class kdv_hesaplama {
     public static void main(String[] args) {
-        double price, kdv_tax = 0.18, tax_price, new_price;
+        double price, kdv_tax, tax_price, new_price;
         
         Scanner input = new Scanner(System.in);
         System.out.println("Tutar giriniz: ");
