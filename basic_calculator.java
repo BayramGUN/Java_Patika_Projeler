@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class basic_calculator {
     public static void main(String[] args) {
-        int select, num_one, num_two;
+        int select;
+        double num_one, num_two;
         Scanner s = new Scanner(System.in);
         System.out.print("Yapacaginiz islemi giriniz: \n 1-Toplama \n 2-Cikarma \n 3-Carpma \n 4-Bolme \n");
         select = s.nextInt();
